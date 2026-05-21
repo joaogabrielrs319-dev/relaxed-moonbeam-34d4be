@@ -1,4 +1,4 @@
-import{l as N}from"./vendor-BMik3Af8.js";/**
+import{u as N}from"./vendor-CK1ZpvkQ.js";/**
    * table-core
    *
    * Copyright (c) TanStack
