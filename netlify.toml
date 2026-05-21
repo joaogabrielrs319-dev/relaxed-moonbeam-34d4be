@@ -1,6 +1,11 @@
-﻿[[redirects]]
+[[redirects]]
   from = "/assets/*"
   to = "/assets/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/env.js"
+  to = "/env.js"
   status = 200
 
 [[redirects]]
@@ -12,3 +17,13 @@
   for = "/assets/*.js"
   [headers.values]
     Content-Type = "application/javascript; charset=utf-8"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+
+[[headers]]
+  for = "/env.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
